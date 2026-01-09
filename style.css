@@ -1,0 +1,71 @@
+.form-card {
+            background: #fff;
+            border-radius: 20px;
+            overflow: hidden;
+            box-shadow: 0 25px 50px rgba(0,0,0,0.2);
+        }
+
+        .form-left {
+            padding: 50px;
+        }
+
+        .form-left h2 {
+            font-weight: 600;
+            margin-bottom: 10px;
+        }
+
+        .form-left p {
+            color: #777;
+            margin-bottom: 30px;
+        }
+
+        .form-control {
+            border-radius: 10px;
+            padding: 12px;
+        }
+
+        .btn-custom {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: #fff;
+            border: none;
+            padding: 12px;
+            border-radius: 10px;
+            font-weight: 500;
+            transition: 0.3s;
+        }
+
+        .btn-custom:hover {
+            opacity: 0.9;
+        }
+
+        .form-right {
+            position: relative;
+        }
+
+        .form-right img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .overlay {
+            position: absolute;
+            inset: 0;
+            background: rgba(0,0,0,0.45);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .overlay h3 {
+            font-weight: 600;
+        }
+
+        @media(max-width: 768px){
+            .form-left {
+                padding: 30px;
+            }
+        }
